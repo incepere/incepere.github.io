@@ -3,6 +3,7 @@
 <head>
 	<meta name="google" content="notranslate" />
 	<title>Incepere</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 	<style>
 		body {
@@ -10,18 +11,27 @@
 			padding: 0;
 			background-color: #6f99cb;
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			min-height: 100vh;
 			font-family: 'Montserrat', sans-serif;
 			color: white;
-			font-size: 64px;
+			font-size: 48px;
 			font-weight: bold;
 			text-align: center;
+		}
+
+		.logo {
+			margin-top: 20px;
+			font-size: 64px;
 		}
 	</style>
 </head>
 <body>
-	incepere
+	<div class="content">
+		incepere
+		<div class="logo">Incepere</div>
+	</div>
 </body>
 </html>
